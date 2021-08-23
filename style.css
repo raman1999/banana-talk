@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&family=Oswald:wght@300;400;500&display=swap');
+
+/* define colours as var */
+:root{
+    --primary-color: #f5e050;
+    --gray: #2e2e2e;
+    --offwhite:#D3D3D3;
+    --black:#000000;
+}
+
+::placeholder{
+    color: var(--gray);
+    font-weight: bold;
+}
+
+body{
+    font-family: 'Oswald', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(/images/background-minions.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+header{
+    background-color: var(--primary-color);
+    margin: 0;
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    border-bottom: 2px solid var(--black);
+}
+
+.heading-text{
+    text-align: center;
+    
+}
+
+#input-box{
+    font-family: 'Montserrat', sans-serif;
+    padding: 1.5rem ;
+    width: 50vw;
+    min-height: 10vh;
+    margin: auto;
+    display: block;
+    margin: 2rem auto;
+    background-color: var(--offwhite);
+    font-weight: bold;
+    box-shadow: 2px 2px 5px var(--black); 
+}
+
+#btnTranslate{
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    margin: 1rem auto;
+    display: block;
+    background-color: var(--primary-color);
+    font-family: 'Oswald', sans-serif;
+    border: 2px solid var(--black);
+    box-shadow: 1px 1px 2px var(--black); 
+    transition: box-shadow 500ms, font-weight 250ms;
+}
+
+#btnTranslate:hover{
+    box-shadow: 2px 2px 4px var(--black);
+    font-weight: bold;
+    transition: box-shadow 500ms, font-weight 250ms;
+}
+
+#output-box{
+    font-family: 'Montserrat', sans-serif;
+    padding: 1.5rem ;
+    width: 50vw;
+    min-height: 10vh;
+    margin: 2rem auto;
+    display: block;
+    color: var(--gray);
+    background-color: var(--offwhite);
+    font-weight: bold;
+    font-size: small;
+    box-shadow: 2px 2px 5px var(--black); 
+}
+
+
+footer{
+    background-color: var(--primary-color);
+    margin: 0;
+    padding: 1rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    border-top: 2px solid var(--black);
+}
+
+.footer-text{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
