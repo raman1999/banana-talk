@@ -17,19 +17,20 @@ body{
     font-family: 'Oswald', sans-serif;
     margin: 0;
     padding: 0;
-    background-image: url(/images/background-minions.jpg);
+    background-image: url(/images/img4.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
 
 header{
-    background-color: var(--primary-color);
+    background-color: black;
     margin: 0;
     padding: 1rem;
     border-bottom-left-radius: 1rem;
     border-bottom-right-radius: 1rem;
     border-bottom: 2px solid var(--black);
+    color:  var(--primary-color);
 }
 
 .heading-text{
@@ -84,12 +85,13 @@ header{
 
 
 footer{
-    background-color: var(--primary-color);
+    background-color: black;
     margin: 0;
     padding: 1rem;
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
     border-top: 2px solid var(--black);
+    color:  var(--primary-color);
 }
 
 .footer-text{
