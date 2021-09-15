@@ -19,7 +19,7 @@ body{
     padding: 0;
     background-image: url(/images/img4.png);
     background-size: contain;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-size: 100% 100%;
 }
 
@@ -42,7 +42,7 @@ header{
     font-family: 'Montserrat', sans-serif;
     padding: 1.5rem ;
     width: 50vw;
-    min-height: 10vh;
+   min-height: 10vh;
     margin: auto;
     display: block;
     margin: 2rem auto;
@@ -60,7 +60,7 @@ header{
     font-family: 'Oswald', sans-serif;
     border: 2px solid var(--black);
     box-shadow: 1px 1px 2px var(--black); 
-    transition: box-shadow 500ms, font-weight 250ms;
+    
 }
 
 #btnTranslate:hover{
@@ -92,10 +92,23 @@ footer{
     border-top-right-radius: 1rem;
     border-top: 2px solid var(--black);
     color:  var(--primary-color);
+    
 }
 
 .footer-text{
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
+}
+.cent{
+    text-align:center;
+    margin-top:1rem;
+    color:white;
+}
+
+.links{
+    display:inline-block;
+    padding-right:2.5rem;
+    font-size:2rem;
+    color:white;
 }
